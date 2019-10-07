@@ -6,4 +6,7 @@
 // quicksort - sequential
 void quicksort_sequential(std::vector<int> &input, int startIndex, int endIndex);
 
+// quicksort - omp
+void quicksort_omp(std::vector<int> &input, int startIndex, int endIndex);
+
 #endif
